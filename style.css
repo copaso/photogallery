@@ -76,6 +76,23 @@ h1, h2{
     text-transform: uppercase;
     font-weight: bold;
 }
+.top{
+    position: absolute;
+    top: auto;
+}
+figcaption{
+    text-align: center;
+}
+.bottom{
+    position: absolute;
+    bottom: auto;
+}
+.black{
+    color:#000000;
+}
+.white{
+    color:white
+}
 /*---------------MEDIA QUERY(880PX)-----------*/
 @media screen and (min-width:880px){
     div{
