@@ -23,6 +23,7 @@ nav{
 }
 nav li{
     display: inline-flex;
+    margin: 0 1em;
 }
 nav a{
     color:#fff;
@@ -52,4 +53,5 @@ h1{
 }
 h2{
     font-size: 2em;
+    text-align: center;
 }
