@@ -27,69 +27,71 @@
     <section id="gallery">
         <h2>Gallery</h2>
         <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
-        <figure>
-            <img src="images/Chile.png" alt="Chile beach">
-            <figcaption>Chile, 2001</figcaption> 
-        </figure>
-        <figure>
-            <img src="images/Guatemala.png" alt="purple flower field with sunset">
-            <figcaption>Guatemala, 1997</figcaption>  
-        </figure>
-        <figure>
-            <img src="images/Hawaii.png" alt="Hawaii beach with mountain">
-            <figcaption>Hawaii, 2010</figcaption> 
-        </figure>
-        <figure>
-            <img src="images/Iran.png" alt="sunsrise over mountains with field of colorful grass and water">
-            <figcaption>Iran, 1999</figcaption>
-        </figure>
-        <figure>
-            <img src="images/Ireland.png" alt="green field with hills">
-            <figcaption>Ireland, 2012</figcaption>
-        </figure>
-        <figure>
-            <img src="images/Italy.png" alt="mountain side view with river">
-            <figcaption>Italy, 2015 </figcaption>
-        </figure>
-        <figure>
-            <img src="images/Moab-Desert.png" alt="mountain view as sunset behind clouds">
-            <figcaption>Moab Desert, 2020</figcaption>
-        </figure>
-        <figure>
-            <img src="images/Rocky-Mountains.png" alt="mountains with ocean crashing">
-            <figcaption>Rocky Mountains, 2009</figcaption>
-        </figure>
-        <figure>
-            <img src="images/Switzerland.png" alt="snow forest with lake with mountain in distance">
-            <figcaption>Switzerland, 2014</figcaption>
-        </figure>
-        <figure>
-            <img src="images/UK.png" alt="grass field in cloudy weather">
-            <figcaption>UK, 2005</figcaption>
-        </figure>
-        <figure>
-            <img src="images/USA.png" alt="yellow and red flower field as sun rise behind hills">
-            <figcaption>USA, 2021</figcaption>
-        </figure>
-        <figure>
-            <img src="images/Wyoming.png" alt="forest with lake and mountains behind trees">
-            <figcaption>Wyoming, 2021</figcaption>
-        </figure>
+        <div>
+                <figure>
+                <img src="images/Chile.png" alt="Chile beach">
+                <figcaption>Chile, 2001</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/Guatemala.png" alt="purple flower field with sunset">
+                <figcaption>Guatemala, 1997</figcaption>  
+            </figure>
+            <figure>
+                <img src="images/Hawaii.png" alt="Hawaii beach with mountain">
+                <figcaption>Hawaii, 2010</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/Iran.png" alt="sunsrise over mountains with field of colorful grass and water">
+                <figcaption>Iran, 1999</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Ireland.png" alt="green field with hills">
+                <figcaption>Ireland, 2012</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Italy.png" alt="mountain side view with river">
+                <figcaption>Italy, 2015 </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Moab-Desert.png" alt="mountain view as sunset behind clouds">
+                <figcaption>Moab Desert, 2020</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Rocky-Mountains.png" alt="mountains with ocean crashing">
+                <figcaption>Rocky Mountains, 2009</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Switzerland.png" alt="snow forest with lake with mountain in distance">
+                <figcaption>Switzerland, 2014</figcaption>
+            </figure>
+            <figure>
+                <img src="images/UK.png" alt="grass field in cloudy weather">
+                <figcaption>UK, 2005</figcaption>
+            </figure>
+            <figure>
+                <img src="images/USA.png" alt="yellow and red flower field as sun rise behind hills">
+                <figcaption>USA, 2021</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Wyoming.png" alt="forest with lake and mountains behind trees">
+                <figcaption>Wyoming, 2021</figcaption>
+            </figure>
+        </div>
+        
     </section> 
+</main>
+<footer>    
     <section id="contact">
         <h2>Contact</h2>
         <p>Please fill out this form and I'll connect with you soon.</p>
-
-        Your contact information
-        Name (Your full name)
-        Email (Enter your email address)
-        Message (What can I help you with?)
-        Submit  
+        <form action="" method="get">
+            <p>Your contact information</p>
+            <label for="name">Name</label><input type="text" name="name" id="name" placeholder="Your full name" required/>
+            <label for="email">Email</label><input type="email" name="email" id="email" placeholder="Enter your email address" required/>
+            <label for="message">Message</label><input type="text" name="message" id="message" placeholder="What can I help you with?" required/> 
+            <input type="submit" value="Submit"/>
+        </form> 
     </section>
-         
-    
-</main>
-<footer>
     <p><small>Copyright 2021 TK Photography</small></p>
 </footer>
 </body>
